@@ -29,7 +29,7 @@ OR Add to autoloading in application/config/main.php
 
 ###Example 1 : BAR CHARTS
 create a table inside your view 
-```
+```html
 <table id="employe-data">
         <caption>2009 Employee Sales by Department</caption>
         <thead>
@@ -88,7 +88,7 @@ Provide an id to the table and then use it as a selector you can use the classna
 ###calling the widget
 There are various options for he plugin which can be configured please see https://github.com/filamentgroup/jQuery-Visualize for more detail 
 you can pass all available options in the plugin to the extension see bellow
-```
+```php
 <?php
     $this->widget('ext.jqueryVisualize.jqueryVisualize',
         array(
@@ -102,7 +102,7 @@ you can pass all available options in the plugin to the extension see bellow
 you can even hide the source table after populating the graph, and provide custom title for the charts if you want see the below example, if you are listing the standard listing quota for any site user.
 
 ###Example 2: using AREA STYLE & Hiding Source table 
-```
+```html
 <table id="stadardquota" ><!--Table Contents Start here-->
     <thead>
     <tr>
@@ -123,7 +123,7 @@ you can even hide the source table after populating the graph, and provide custo
 </table><!--Table Contents End here-->
 ```
 ###calling the widget
-```
+```php
 <?php
 $this->widget('ext.jqueryVisualize.jqueryVisualize',
     array(
