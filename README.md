@@ -16,14 +16,14 @@ unzip the jqueryVisualize.zip to you extensions directory
 application/extension/jqueryVisualize
 ```
 Direct import into page 
-    ```php
-        Yii::import('ext.jqueryVisualize.jqueryVisualize');
-    ```
+```php
+Yii::import('ext.jqueryVisualize.jqueryVisualize');
+```
 OR Add to autoloading in application/config/main.php
-    ```php
-    'import' => array(
-        'ext.jqueryVisualize.jqueryVisualize',
-    ```
+```php
+'import' => array(
+'ext.jqueryVisualize.jqueryVisualize',
+```
 
 #How the Visualize plugin works
 
