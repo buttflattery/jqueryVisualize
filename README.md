@@ -1,10 +1,11 @@
-#Introduction 
+#YII JqueryVisualize
+##Introduction 
     The plugin is created originaly by the filament group 
     http://www.filamentgroup.com/lab/update-to-jquery-visualize-accessible-charts-with-html5-from-designing-with.html
     Demo Page: http://www.filamentgroup.com/examples/jqueryui-visualize/vanilla.html
 
 ##Integration in Yii Framework 
-    This plugin is tested with Yii 1.1.15 will work for lower version too 
+    This extension is tested with Yii 1.1.15 will work for lower version too 
 
 ##Installation 
     unzip the jqueryVisualize.zip to you extensions directory
