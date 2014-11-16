@@ -10,15 +10,15 @@ Demo Page: http://www.filamentgroup.com/examples/jqueryui-visualize/vanilla.html
     This extension is tested with Yii 1.1.15 will work for lower version too 
 
 ##Installation 
-    unzip the jqueryVisualize.zip to you extensions directory
-    ```
+unzip the jqueryVisualize.zip to you extensions directory
+    ```php
     application/extension/jqueryVisualize
     ```
-    Direct import into page 
+Direct import into page 
     ```php
         Yii::import('ext.jqueryVisualize.jqueryVisualize');
     ```
-    OR Add to autoloading in application/config/main.php
+OR Add to autoloading in application/config/main.php
     ```php
     'import' => array(
         'ext.jqueryVisualize.jqueryVisualize',
