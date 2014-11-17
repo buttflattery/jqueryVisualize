@@ -136,3 +136,5 @@ $this->widget('ext.jqueryVisualize.jqueryVisualize',
 );
 ?>
 ```
+#Working demo 
+http://yiidemos.omaraslam.com/jqueryvisualize/index
