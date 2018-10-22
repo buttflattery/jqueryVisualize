@@ -21,4 +21,4 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 assets/css/* linguist-vendored
-assets/js/* liguist-vendored
+assets/js/* linguist-vendored
